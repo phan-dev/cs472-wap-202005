@@ -1,0 +1,33 @@
+body {
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+#div-header {
+    background-image: url("images/mountain.jpg");
+    height: 200px;
+}
+
+#div-profile {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+#div-profile img {
+    border-radius: 50%;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: lightskyblue;
+    padding: 20px;
+}
