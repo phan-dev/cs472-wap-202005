@@ -9,7 +9,7 @@ header {
 }
 
 #div-header {
-    background-image: url("images/mountain.jpg");
+    background-image: url("../images/mountain.jpg");
     height: 200px;
 }
 
