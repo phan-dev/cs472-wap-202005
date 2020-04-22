@@ -41,6 +41,24 @@ p:first-letter {
     font-size: 1.2em;
 }
 
+#p-movies {
+    font-style: italic;
+}
+
+#p-movies::first-letter {
+    font-size: 1em;
+}
+
+dt {
+    color: deeppink;
+    font-weight: bolder;
+}
+
+dd {
+    color: darkslateblue;
+    font-style: italic;
+}
+
 #div-header {
     background-image: url("../images/mountain.jpg");
     height: 200px;
