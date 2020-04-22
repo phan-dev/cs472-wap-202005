@@ -59,6 +59,11 @@ dd {
     font-style: italic;
 }
 
+ol {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
 #div-header {
     background-image: url("../images/mountain.jpg");
     height: 200px;
