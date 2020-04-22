@@ -12,6 +12,18 @@ section {
     padding: 20px;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p:first-letter {
+    font-size: 1.5em;
+}
+
 #h1-name {
     text-align: center;
     color: slateblue;
