@@ -32,6 +32,10 @@ section {
     padding: 20px;
 }
 
+.img-mood {
+    height: 200px;
+}
+
 footer {
     background-color: lightskyblue;
     padding: 20px;
