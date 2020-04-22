@@ -1,0 +1,158 @@
+body {
+    font-size: 11pt;
+    color: #404040;
+    background-image: url("../images/silverware.jpg");
+    font-family: "Georgia", "Garamond", sans-serif;
+}
+
+a {
+    color: #A4A400;
+}
+
+header {
+    padding: 0px 10px;
+}
+
+header img {
+    margin-top: 5px;
+    padding: 0px 10px;
+}
+
+header > div {
+    text-align: center;
+}
+
+header > div > h1 {
+    text-decoration: underline;
+    color: #A4A400;
+    text-align: center;
+    background-color: #F0F0F0;
+    padding: 5px 10px;
+    font-family: "Lucida Sans Unicode", "Helvetica", "Arial", sans-serif;
+    font-size: 22pt;
+    width: fit-content;
+    margin: auto auto 15px auto ;
+    letter-spacing: 7px;
+}
+
+header > ul {
+    list-style-type: none;
+    line-height: 1.5;
+    padding: 0px;
+    margin-top: 10px;
+}
+
+main {
+    padding: 0px 10px;
+}
+
+main > section {
+    border-top: 1px solid #ddd;
+}
+
+main > section > h2 {
+    color: #A4A400;
+    text-transform: uppercase;
+    text-decoration: underline;
+    background-color: #F0F0F0;
+    font-family: "Lucida Sans Unicode", "Helvetica", "Arial", sans-serif;
+    font-size: 18pt;
+}
+
+#user-comments, #links {
+    list-style-type: none;
+}
+
+#ingredients {
+    list-style-image: url(../images/pie_icon.gif);
+}
+
+#ingredients, #directions, #links {
+    line-height: 1.5;
+}
+
+#ingredients, #directions ul {
+    list-style-image: url(../images/pie_icon.gif);
+}
+
+#links {
+    padding: 0px;
+    margin: 0px;
+}
+
+main > section > ul li a {
+    text-decoration: none;
+}
+
+main > section > ul li a:hover {
+    text-decoration: underline;
+}
+
+#user-comments li {
+    font-style: italic;
+    background-color: rgb(255, 242, 169);
+    display: block;
+}
+
+.lineThrough {
+    text-decoration: line-through;
+}
+#site-info {
+    text-align: right;
+}
+
+#site-info > ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+#site-info > ul > li {
+    font-family: "monospace", sans-serif;
+}
+
+#site-info > ul > li::after {
+    content: "|";
+    position:fixed;
+    right:0;
+}
+
+#validator {
+    padding-right: 0px;
+    text-align: right;
+}
+
+#validator a {
+    text-decoration: none;
+}
+
+pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px solid black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
