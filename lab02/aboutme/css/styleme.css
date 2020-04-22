@@ -19,6 +19,7 @@ nav {
     border-bottom: solid;
     border-color: black;
     border-width: 1px;
+    text-align: right;
 }
 nav a {
     color: dodgerblue;
