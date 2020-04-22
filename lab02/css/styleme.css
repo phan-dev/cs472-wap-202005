@@ -84,7 +84,14 @@ ol {
     border-radius: 50%;
 }
 
+#div-moods div {
+    display: inline-block;
+    margin-left: 40px;
+}
 
+#div-moods div span {
+    display: block;
+}
 
 .img-mood {
     height: 200px;
