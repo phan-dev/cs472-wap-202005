@@ -1,0 +1,17 @@
+#container {
+    width: 500px;
+    background-color: lightgray;
+    padding: 10px;
+    overflow: hidden;
+}
+
+#container > h1 {
+    background-color: yellow;
+}
+
+.column {
+    background-color: lightblue;
+    float: right;
+    width: 100px;
+    margin-left: 10px;
+}
