@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Phan Anh Nguyen - Webform 2</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="css/webform2.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <nav id="nav-menu" class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#">MUM Golden Dome Market:::SRM System</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto ml-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Suppliers</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <span id="navbar-user-name" class="mr-3">Hello!</span>
+                        <button class="btn btn-light" type="submit">Sign Out</button>
+                    </form>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+                <section>
+                    <h2 class="mt-5 mb-5 font-weight-light">New Product Form</h2>
+                    <form method="get" action="webform2.html">
+                        <div class="form-row">
+                            <div class="col-md-5 offset-1 col-sm-11">
+                                <div class="form-group">
+                                    <label>Product Number</label>
+                                    <input type="number" name="product-number" class="form-control form-control-lg validate" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Name</label>
+                                    <input type="text" name="name" class="form-control form-control-lg validate" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Unit Price</label>
+                                    <input type="number" name="unit-price" class="form-control form-control-lg validate" placeholder="0.0" />
+                                </div>
+                            </div>
+                            <div class="col-md-5 offset-1 col-sm-11">
+                                <div class="form-group">
+                                    <label>Quantity in stock</label>
+                                    <input type="number" name="quantity" class="form-control form-control-lg validate" placeholder="0" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Supplier:</label>
+                                    <select name="supplier" class="form-control form-control-lg validate">
+                                        <option value="" selected>Select a supplier</option>
+                                        <option value="1">supplier 1</option>
+                                        <option value="2">supplier 2</option>
+                                        <option value="3">supplier 3</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>Date supplied</label>
+                                    <input type="text" name="date" class="form-control form-control-lg" placeholder="yyyy-mm-dd"/>
+                                    <small class="form-text text-muted">Enter a valid Date.</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row float-right mt-5">
+                            <input type="reset" name="reset" value="Reset" class="btn btn-outline-dark btn-lg" />
+                            <input type="reset" name="cancel" value="Cancel" class="btn btn-outline-danger btn-lg ml-2" />
+                            <input type="submit" name="add-product" value="Add Product" class="btn btn-outline-primary btn-lg ml-2" />
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </main>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
