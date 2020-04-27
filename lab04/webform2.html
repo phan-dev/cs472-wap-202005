@@ -41,25 +41,25 @@
                             <div class="col-md-5 offset-1 col-sm-11">
                                 <div class="form-group">
                                     <label>Product Number</label>
-                                    <input type="number" name="product-number" class="form-control form-control-lg validate" />
+                                    <input id="input-product-number" type="number" name="product-number" class="form-control form-control-lg validate" />
                                 </div>
                                 <div class="form-group">
                                     <label>Name</label>
-                                    <input type="text" name="name" class="form-control form-control-lg validate" />
+                                    <input id="input-name" type="text" name="name" class="form-control form-control-lg validate" />
                                 </div>
                                 <div class="form-group">
                                     <label>Unit Price</label>
-                                    <input type="number" name="unit-price" class="form-control form-control-lg validate" placeholder="0.0" />
+                                    <input id="input-unit-price" type="number" name="unit-price" class="form-control form-control-lg validate" placeholder="0.0" />
                                 </div>
                             </div>
                             <div class="col-md-5 offset-1 col-sm-11">
                                 <div class="form-group">
                                     <label>Quantity in stock</label>
-                                    <input type="number" name="quantity" class="form-control form-control-lg validate" placeholder="0" />
+                                    <input id="input-quantity" type="number" name="quantity" class="form-control form-control-lg validate" placeholder="0" />
                                 </div>
                                 <div class="form-group">
                                     <label>Supplier:</label>
-                                    <select name="supplier" class="form-control form-control-lg validate">
+                                    <select id="select-supplier" name="supplier" class="form-control form-control-lg validate">
                                         <option value="" selected>Select a supplier</option>
                                         <option value="1">supplier 1</option>
                                         <option value="2">supplier 2</option>
@@ -68,7 +68,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label>Date supplied</label>
-                                    <input type="text" name="date" class="form-control form-control-lg" placeholder="yyyy-mm-dd"/>
+                                    <input id="input-date" type="text" name="date" class="form-control form-control-lg" placeholder="yyyy-mm-dd"/>
                                     <small class="form-text text-muted">Enter a valid Date.</small>
                                 </div>
                             </div>
@@ -76,7 +76,7 @@
                         <div class="form-row float-right mt-5">
                             <input type="reset" name="reset" value="Reset" class="btn btn-outline-dark btn-lg" />
                             <input type="reset" name="cancel" value="Cancel" class="btn btn-outline-danger btn-lg ml-2" />
-                            <input type="submit" name="add-product" value="Add Product" class="btn btn-outline-primary btn-lg ml-2" />
+                            <input id="btn-add-product" type="submit" name="add-product" value="Add Product" class="btn btn-outline-primary btn-lg ml-2" />
                         </div>
                     </form>
                 </section>
@@ -87,5 +87,6 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="../lab05/lab05-new-product-form.js"></script>
     </body>
 </html>
