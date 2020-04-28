@@ -183,3 +183,12 @@ console.log("Question 13: printFibo(2,0,1) = " + printFibo(2,0,1));
 console.log("Question 13: printFibo(3,0,1) = " + printFibo(3,0,1));
 console.log("Question 13: printFibo(6,0,1) = " + printFibo(6,0,1));
 console.log("Question 13: printFibo(10,0,1) = " + printFibo(10,0,1));
+
+//reverse in-place
+function reverse2(s) {
+    for(let i=0; i<s.length-1; i++){
+        s = s.substring(0, i) + s.substr(s.length-1, 1) + s.substring(i, s.length-1);
+    }
+    return s;
+}
+console.log("Reverse in-place: reverse2(\"phan anh\") = " + reverse2("phan anh"));
