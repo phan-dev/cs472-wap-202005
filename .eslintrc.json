@@ -9,8 +9,14 @@
         "SharedArrayBuffer": "readonly"
     },
     "parserOptions": {
-        "ecmaVersion": 2018
+        "sourceType": "script"
     },
     "rules": {
+        "strict": "warn",
+        "semi": ["warn", "always"],
+        "quotes": ["error", "double"],
+        "no-alert": "off",
+        "no-console": "off",
+        "no-unused-vars": "warn"
     }
 }
