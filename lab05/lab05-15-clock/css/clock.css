@@ -5,3 +5,11 @@
     color: lightcoral;
     text-align: center;
 }
+
+div {
+    text-align: center;
+}
+
+#btn-stop {
+    font-size: 50px;
+}
